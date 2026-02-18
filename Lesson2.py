@@ -1,2 +1,5 @@
 print("Hello world")
-print("My name is Aarya")
+def new_func():
+    print("My name is Aarya")
+
+new_func()
