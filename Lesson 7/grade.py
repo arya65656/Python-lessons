@@ -30,4 +30,4 @@ elif 21 <= avg < 33:
 elif 0 <= avg < 21:
     print("Your Grade is E2")
 else:
-    print("Invalid Input!")
+    print("Invalid input...")
