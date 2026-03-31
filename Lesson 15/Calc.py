@@ -13,14 +13,14 @@ def sqr(p,q):
     return(p**q)
 def root(p,q):
     return(p**0.5,q**0.5)
-print("Select operation:")
+print("Operations are:")
 print("a) ADD")
 print("b) SUBTRACT")
 print("c) MULTIPLY")
 print("d) DIVIDE")
 print("d) SQUARE")
 print("f) SQUARE ROOT")
-choice=(input("Enter one operation: "))
+choice=(input("Select one operation: "))
 p = float(input("Enter first number: "))
 q = float(input("Enter second number: "))
 if choice == 'a':
